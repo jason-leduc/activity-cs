@@ -1,0 +1,60 @@
+html { 
+    font-family: Arial, Helvetica, Sans-serif;
+}
+
+Body {
+    background-color: darkgrey;
+} 
+
+h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: Normal; 
+    font-size: 3rem; /* 1rem = 16px */
+    color: red
+}
+
+h2 {
+    color: #F00;
+}
+
+p,
+li {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+h1 + p {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+}
+
+strong {
+    font-weight: bold;
+}
+
+p strong {
+    color: red;
+}
+
+em {
+    font-style: italic;
+    color: darkred
+}
+
+ul,
+
+ol {
+    background-color: lightblue;
+}
+
+li {
+    color: #F00;
+}
+
+ul li:first-child {
+    background-color: yellow;
+}
+    
+ul li:last-child {
+    background-color: lightgreen;
+}    
